@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.174.0/"
+  },
+  "tasks": {
+    "run": "deno run -A --check main.ts --run-tasks"
+  },
+  "fmt": {
+    "options": {
+      "semiColons": false,
+      "singleQuote": true
+    }
+  }
+}
